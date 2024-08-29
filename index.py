@@ -1,7 +1,7 @@
 import sys
 
 def main():
-    arg = sys.argv[1]
+    arg = sys.argv[1].lower()
 
     match arg:
         case "/name": name()
